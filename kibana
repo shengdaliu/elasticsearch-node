@@ -1,0 +1,14 @@
+POST stocks/stock/_delete_by_query?conflicts=proceed
+{
+  "query": {
+        "match_all": {}
+    }
+}
+
+
+GET stocks/stock/_search
+{
+  "query": {
+        "match_all": {}
+    }
+}

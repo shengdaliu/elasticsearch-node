@@ -1,0 +1,15 @@
+{
+  "name": "elasticsearch-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shengda Liu",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^14.1.0",
+    "jsonfile": "^4.0.0"
+  }
+}
